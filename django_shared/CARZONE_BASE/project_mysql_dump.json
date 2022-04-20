@@ -1,0 +1,75 @@
+[
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Besong",
+        "designation": "Sales Manager",
+        "photo": "photos/2022/04/18/avatar-1.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-04-18T08:58:11.523Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$v2uEKnublXU2$G6gSWzJVYewaRmNHoONBuuyf5iDhwN97htNSOon34fA=",
+        "last_login": "2022-04-18T04:57:15.523Z",
+        "is_superuser": true,
+        "username": "donbes@yahoo.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "donbes@yahoo.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-15T13:19:29.711Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$lw9gHHi1kwqf$x04MJE+0bRPpY7fQgxNyWp8fpA+xLo+FOKArHIgJaro=",
+        "last_login": "2022-04-19T11:07:22.814Z",
+        "is_superuser": true,
+        "username": "donbes",
+        "first_name": "",
+        "last_name": "",
+        "email": "donbes@yahoo.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-18T07:18:18.456Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-04-18T08:58:11.533Z",
+        "user": [
+            "donbes"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
